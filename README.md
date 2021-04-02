@@ -75,9 +75,9 @@ J'ai donc développé un petit script en **Python** pour convertir mon fichier *
 
 Je suis maintenant près à analyser mes données 🤓
 
-## Pour exectuer le site 📊
+## Pour exéctuer le site 📊
 
-Il faut lancer le site sur un **locahost** pour l'exectuer ! Sinon, les requête en back ne pourront pas se faire.
+Il faut lancer le site sur un **locahost**, sinon les requête en back ne pourront pas se faire.
 
 ---
 
