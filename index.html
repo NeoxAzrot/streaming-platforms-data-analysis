@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Needed -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Quelle platforme de streaming choisir ?</title>
+
+    <!-- Imports CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Imports JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- Google charts -->
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="assets/js/data.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Quelle platforme de streaming choisir ?</h1>
+      <p>Nombre de données analysées : <span id="numberOfData"></span></p>
+
+      <h2>Le nombre de programmes par platforme de streaming</h2>
+      <div id="number_of_movies"></div>
+
+      <h2 class="h2-country">Les langues des programmes en fonction de la platforme</h2>
+      <div class="country_container">
+        <div class="country">
+          <p>Netflix</p>
+          <div id="country_movies_netflix"></div>
+        </div>
+        <div class="country">
+          <p>Hulu</p>
+          <div id="country_movies_hulu"></div>
+        </div>
+        <div class="country">
+          <p>Prime Video</p>
+          <div id="country_movies_prime_video"></div>
+        </div>        
+        <div class="country">
+          <p>Disney+</p>
+          <div id="country_movies_disney"></div>
+        </div>
+      </div>
+
+      <h2 class="h2-genre">Les genres des programmes en fonction de la platforme</h2>
+      <div class="genre_container">
+        <div class="genre">
+          <p>Netflix</p>
+          <div id="genre_movies_netflix"></div>
+        </div>
+        <div class="genre">
+          <p>Hulu</p>
+          <div id="genre_movies_hulu"></div>
+        </div>
+        <div class="genre">
+          <p>Prime Video</p>
+          <div id="genre_movies_prime_video"></div>
+        </div>        
+        <div class="genre">
+          <p>Disney+</p>
+          <div id="genre_movies_disney"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

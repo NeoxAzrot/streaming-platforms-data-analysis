@@ -1,0 +1,78 @@
+/* Impors */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Variables */
+:root {
+  --main-font: 'Poppins', sans-serif;
+  --primary: #5465FF;
+  --primary-light: #788BFF;
+  --secondary: #9BB1FF;
+  --secondary-light: #BFD7FF;
+  --info: #E2FDFF;
+  --text: #05050B;
+}
+
+/* CSS */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+  color: var(--text);
+  padding: 30px;
+  padding-bottom: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#numberOfData {
+  background-color: var(--info);
+  padding: 0 5px;
+}
+
+h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.h2-country, .h2-genre {
+  margin-bottom: -20px;
+}
+
+.h2-genre {
+  margin-top: 130px;
+}
+
+.country_container, .genre_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.country, .genre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 40%;
+  margin-top: 40px;
+}
+
+.country:nth-child(even), .genre:nth-child(even){
+  margin-left: 20px;
+}
+
+.country p {
+  margin-bottom: 10px;
+}
+
+.genre p {
+  margin-bottom: 0;
+}
